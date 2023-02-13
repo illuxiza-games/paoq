@@ -1,0 +1,37 @@
+.nav {
+    margin-bottom: 1.3rem;
+
+    .actions {
+        display: flex;
+        margin: 0.8rem 0;
+        align-items: center;
+
+        .leftBtn {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 1.3rem;
+                height: 1.3rem;
+            }
+        }
+
+        .title {
+            font-size: 1.1rem;
+            margin-left: 0.6rem;
+            font-weight: bold;
+        }
+
+        .show-rules {
+            margin-left: auto;
+            cursor: pointer;
+        }
+    }
+
+    .rule {
+        color: #aaa;
+        font-size: 0.8rem;
+        text-align: right;
+    }
+}

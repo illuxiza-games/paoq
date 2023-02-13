@@ -1,0 +1,57 @@
+@import '@illuxiza/one-client-react/styles/variable';
+
+.rule-setting {
+    margin: 1rem 0.5rem 2rem;
+
+    .rule-item {
+        display: flex;
+        align-items: flex-start;
+
+        & + .rule-item {
+            margin-top: 0.8rem;
+        }
+
+        .rule-item-info {
+            margin-left: 1rem;
+
+            .rule-item-title {
+                font-weight: bold;
+            }
+
+            .rule-item-desc {
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                margin-top: 0.4rem;
+                color:#fff;
+            }
+        }
+    }
+}
+
+.board-setting {
+    display: flex;
+
+    .board-item {
+        display: flex;
+        align-items: flex-start;
+
+        & + .board-item {
+            margin-left: 0.5rem;
+        }
+
+        .board-item-info {
+            margin-left: 0.3rem;
+
+            .board-item-title {
+                font-weight: bold;
+            }
+
+            .board-item-desc {
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                margin-top: 0.3rem;
+                color: #aaa;
+            }
+        }
+    }
+}
